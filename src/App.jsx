@@ -2,7 +2,7 @@ import { createSignal } from "solid-js";
 
 const tacoPrice = 1.59;
 const tax = 0.08375;
-const user = "Charles-Too";
+const user = "charles-too";
 
 function App() {
     const [tacoAmount, setTacoAmount] = createSignal(1);
