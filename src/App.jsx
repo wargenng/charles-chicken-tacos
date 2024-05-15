@@ -22,7 +22,22 @@ function App() {
     };
 
     const reactions = () => {
-        const reaction = ["😒", "😑", "😏", "😎", "😱", "🤯"];
+        const reaction = [
+            "😒",
+            "😑",
+            "😏",
+            "😎",
+            "😱",
+            "🤯",
+            "🤯",
+            "🤯",
+            "💀",
+            "💀",
+            "💀",
+            "💀",
+            "💀",
+            "☠️",
+        ];
         const index =
             tacoAmount() < reaction.length
                 ? tacoAmount() - 1
