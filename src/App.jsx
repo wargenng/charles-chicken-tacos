@@ -12,7 +12,7 @@ function App() {
     };
 
     const handlePlus = () => {
-        setTacoAmount(tacoAmount() < 100 ? tacoAmount() + 1 : 99);
+        setTacoAmount(tacoAmount() < 100 ? tacoAmount() + 1 : 100);
     };
 
     const calculatePrice = () => {
@@ -20,7 +20,7 @@ function App() {
     };
 
     return (
-        <div class="font-bold text-4xl w-screen h-screen flex flex-col items-center justify-center gap-y-5">
+        <div class="font-bold text-4xl w-screen h-full flex flex-col items-center justify-center gap-y-5 mt-12">
             <h1 class="">How Many Tacos?</h1>
             <h1>{"🌮".repeat(tacoAmount())}</h1>
             <div class="gap-4 flex">
