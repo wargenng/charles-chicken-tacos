@@ -3,5 +3,6 @@
 @tailwind utilities;
 
 html {
-    touch-action: none;
+    touch-action: manipulation;
+    user-select: none;
 }
