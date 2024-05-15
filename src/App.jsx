@@ -32,7 +32,7 @@ function App() {
     };
 
     return (
-        <div class="font-bold text-4xl w-screen h-full flex flex-col items-center justify-center gap-y-10 mt-12">
+        <div class="font-bold text-4xl w-screen h-full flex flex-col items-center justify-center gap-y-8 mt-10">
             <h1 class="text-8xl">{reactions}</h1>
             <h1>How Many Tacos?</h1>
             <h1>Cost ${calculatePrice}</h1>
