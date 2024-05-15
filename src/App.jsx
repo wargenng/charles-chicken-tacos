@@ -20,7 +20,7 @@ function App() {
     };
 
     return (
-        <div class="font-bold text-4xl w-full h-full flex flex-col items-center justify-center m-4 gap-y-4">
+        <div class="font-bold text-4xl w-screen h-screen flex flex-col items-center justify-center gap-y-5">
             <h1 class="">How Many Tacos?</h1>
             <h1>{"🌮".repeat(tacoAmount())}</h1>
             <div class="gap-4 flex">
